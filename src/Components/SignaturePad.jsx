@@ -26,11 +26,11 @@ const SignaturePad = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen p-4">
-      <div className="text-3xl mb-4 font-mono">
+    <div className="flex flex-col justify-center items-center min-h-screen p-4 bg-white">
+      <div className="text-3xl mb-4 font-mono text-black">
         Signature App
       </div>
-      <div className="border-2 border-black w-full max-w-4xl" style={{ aspectRatio: '2 / 1' }}>
+      <div className="border-2 border-black w-full max-w-4xl h-64 sm:h-auto" style={{ aspectRatio: '2 / 1' }}>
         <SignatureCanvas
           penColor="black"
           canvasProps={{ className: "w-full h-full" }}
